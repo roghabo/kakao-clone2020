@@ -1,3 +1,7 @@
-#Kokoa Clone 2020 Update
+# Kakao-clone-2020
 
-HTML & CSS
+HTML & SCSS
+
+# Preview:
+
+Try it on [github](https://roghabo.github.io/kakao-clone2020)
