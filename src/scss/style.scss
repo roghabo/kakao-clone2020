@@ -2,7 +2,15 @@
 
 @import "_reset";
 @import "_variables";
-@import "main";
 
 @import "partials/statusBar.scss";
 @import "partials/login.scss";
+@import "partials/nav-bar.scss";
+@import "partials/screen-header.scss";
+
+@import "partials/friends.scss";
+
+body {
+  color: #2e363e;
+  font-family: "Open Sans", sans-serif;
+}

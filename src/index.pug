@@ -1,12 +1,23 @@
-extends templates/layout
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="css/style.css")
+        title Welcome to Kokoa Clone
+    body
+        include partials/status-bar
 
-block content
-    header.welcome-header
-        h1.welcome-header__title Welcome to Kokoa Clone
-        p.welcome-header__text If you have a Kokoa Account, log in with your email or phone number.
+        header.welcome-header
+            h1.welcome-header__title Welcome to Kokoa Clone
+            p.welcome-header__text If you have a Kokoa Account, log in with your email or phone number.
 
-    form#login-form(action="friends.html", method="get")
-        input(type="text", placeholder="Email or phone number")
-        input(type="password", placeholder="Password")
-        input(type="submit", value="Log In")
-        a(href="#") Find Kokoa Account or Password
+        form#login-form(action="/templates/friends.html", method="get")
+            input(type="text", placeholder="Email or phone number")
+            input(type="password", placeholder="Password")
+            input(type="submit", value="Log In")
+            a(href="#") Find Kokoa Account or Password
+
+
+        script(src="https://kit.fontawesome.com/1b0f55ecbc.js", crossorigin="anonymous")

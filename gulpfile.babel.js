@@ -15,7 +15,7 @@ sass.compiler = require("node-sass");
 const routes = {
   pug: {
     watch: "src/**/*.pug",
-    src: "src/*.pug",
+    src: "src/**/*.pug",
     dest: "build",
   },
   img: {
