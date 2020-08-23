@@ -3,9 +3,32 @@
   display: block;
   background-color: #fafafa;
   padding: 15px 0px;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 10px;
 
   i {
     color: rgba(0, 0, 0, 0.3);
+    margin-right: 7px;
+  }
+
+  span {
+    margin-right: 7px;
+  }
+}
+
+.friends-screen {
+  padding: 0px $horizontal-space;
+
+  &__channel {
+    margin-top: 25px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    padding-top: 15px;
+
+    &--header {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      color: rgba(0, 0, 0, 0.5);
+    }
   }
 }
