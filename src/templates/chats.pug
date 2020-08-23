@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    header.screen-header
+        h1.screen-header__title Chats
+        .screen-header__icons
+            span
+                i.fas.fa-search.fa-lg
+            span
+                i.far.fa-comment-dots.fa-lg
+            span
+                i.fas.fa-music.fa-lg
+            span
+                i.fas.fa-cog.fa-lg
+    
+    main.main-screen
+        .user-component
+            .user-component__column
+                img.user-component__avatar(src="https://pbs.twimg.com/profile_images/983730179359981568/09_V2ORe_400x400.jpg")
+                .user-component__text
+                    h4.user-component__title KokoaTalk
+                    h6.user-component__subtitle Please check My Kokoa Account info
+            .user-component__column
+                span.user-component__time 23:06
+                .badge 1
+
+

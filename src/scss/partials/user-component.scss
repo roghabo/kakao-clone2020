@@ -10,6 +10,9 @@
 
   &__column:last-child {
     color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   &__avatar {
@@ -41,6 +44,11 @@
   &__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  &__time {
+    margin-bottom: 10px;
+    display: block;
   }
 }

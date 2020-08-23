@@ -8,10 +8,15 @@
 @import "partials/nav-bar.scss";
 @import "partials/screen-header.scss";
 @import "partials/user-component.scss";
+@import "partials/badge.scss";
 
 @import "partials/friends.scss";
 
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+  padding: 0px $horizontal-space;
 }
