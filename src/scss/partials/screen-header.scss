@@ -12,8 +12,13 @@
   }
 
   &__icons {
+    position: relative;
     span {
       margin-left: 25px;
+    }
+    &--new {
+      right: -5px;
+      top: -10px;
     }
   }
 }

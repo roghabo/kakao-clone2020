@@ -10,3 +10,12 @@
   font-weight: 600;
   font-size: 12px;
 }
+
+.badge--new {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
