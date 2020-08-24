@@ -6,6 +6,11 @@
   &__column:first-child {
     display: flex;
     align-items: center;
+    i {
+      color: tomato;
+      margin-left: 5px;
+      font-size: 16px;
+    }
   }
 
   &__column:last-child {
@@ -50,5 +55,8 @@
   &__time {
     margin-bottom: 10px;
     display: block;
+  }
+  h6 {
+    display: inline;
   }
 }
