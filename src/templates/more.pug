@@ -9,8 +9,9 @@ block content
             span
                 i.fas.fa-music.fa-lg
             span
-                i.fas.fa-cog.fa-lg
-                span.screen-header__icons--new.badge--new
+                a(href="settings.html")
+                    i.fas.fa-cog.fa-lg
+                    span.screen-header__icons--new.badge--new
     
     main.main-screen.more-screen
         .user-component
@@ -27,14 +28,20 @@ block content
                 i.far.fa-calendar
                 span Calendar
             .icon-row__icon
-                i.far.fa-smile-beam
+                i.fas.fa-box
                 span Talk Drive
             .icon-row__icon
-                i.fas.fa-paint-roller
+                i.far.fa-smile-beam
                 span Emoticons
             .icon-row__icon
-                i.fas.fa-file-invoice-dollar
+                i.fas.fa-paint-roller
                 span Themes
+            .icon-row__icon
+                i.fas.fa-file-invoice-dollar
+                span Account
+            .icon-row__icon
+                i.far.fa-comments
+                span Openchat
         .more-suggestions
             h4.more-suggestions__title Suggestions
             .more-suggestions__icons
@@ -42,4 +49,8 @@ block content
                     .more-suggestions__icon-image
                         i.fas.fa-quote-right
                     span.more-suggestions__icon-text Kokoa Story
+                .more-suggestions__icon
+                    .more-suggestions__icon-image
+                        i.far.fa-meh-blank
+                    span.more-suggestions__icon-text Kokoa friends
         

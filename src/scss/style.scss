@@ -11,11 +11,13 @@
 @import "components/user-component.scss";
 @import "components/badge.scss";
 @import "components/icon-row.scss";
+@import "components/alt-screen-header.scss";
 
 /* Screens */
 @import "screens/friends.scss";
 @import "screens/find.scss";
 @import "screens/more.scss";
+@import "screens/settings.scss";
 
 body {
   color: #2e363e;
