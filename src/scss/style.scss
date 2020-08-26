@@ -12,12 +12,14 @@
 @import "components/badge.scss";
 @import "components/icon-row.scss";
 @import "components/alt-screen-header.scss";
+@import "components/no-mobile.scss";
 
 /* Screens */
 @import "screens/friends.scss";
 @import "screens/find.scss";
 @import "screens/more.scss";
 @import "screens/settings.scss";
+@import "screens/chat.scss";
 
 body {
   color: #2e363e;

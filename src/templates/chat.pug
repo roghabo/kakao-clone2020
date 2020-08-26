@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="../css/style.css")
+        title Welcome to Kokoa Clone
+    body#chat-screen
+        include ../partials/status-bar
+
+        header.alt-header
+            .alt-header__column
+                a(href="chats.html")
+                    i.fas.fa-angle-left.fa-3x
+            .alt-header__column
+                h1.alt-header__title Pika
+            .alt-header__column
+                span
+                    i.fas.fa-search.fa-lg
+                span
+                    i.fas.fa-bars.fa-lg
+        main.main-screen.main-chat
+            .chat__timestamp Tuesday, August 25, 2020
+            .message-row
+                img(src="https://pbs.twimg.com/profile_images/814468511825154048/fwb0OjaC_400x400.jpg")
+                .message-row__content
+                    span.message__author Pika
+                    .message__info
+                        span.message__bubble Hi
+                        span.message__time 12:24
+            .message-row.message-row--own
+                .message-row__content
+                    .message__info
+                        span.message__bubble Hi nice to meet you!
+                        span.message__time 12:33
+        form.reply
+            .reply__column
+                i.far.fa-plus-square.fa-lg
+            .reply__column
+                input(type="text", placeholder="Write a message...")     
+                i.far.fa-smile-wink.fa-lg
+                button
+                    i.fas.fa-arrow-up
+        #no-mobile
+            span Your screen is too big 😢
+
+
+        script(src="https://kit.fontawesome.com/1b0f55ecbc.js", crossorigin="anonymous")
