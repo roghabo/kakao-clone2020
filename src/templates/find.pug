@@ -1,4 +1,6 @@
 extends layout
+block title
+    title Find | KokoaTalk
 
 block content
     header.screen-header
@@ -36,7 +38,7 @@ block content
             .open-post
                 .open-post__column
                     h5.open-post__title #Sun & Moon
-                    h6.open-post__hashtags #sun #moon
+                    h6.open-post__hashtags #sun #moon #Poketmon
                     .open-post__members
                         img(src="https://vignette.wikia.nocookie.net/pokemon/images/9/92/%ED%8F%AC%EC%BC%93%EB%AA%AC%EC%8A%A4%ED%84%B0_%EC%8D%AC%EB%AC%B8_%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98_%ED%95%9C%EA%B5%AD_%ED%8F%AC%EC%8A%A4%ED%84%B0_2.jpg/revision/latest?cb=20180919180343&path-prefix=ko")
                         span.open-post__member-count 802 members
@@ -50,4 +52,7 @@ block content
                             span 326
 
                     
-
+block nav-friends
+    i.far.fa-user.fa-2x
+block nav-chats
+    i.far.fa-comment.fa-2x

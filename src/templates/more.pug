@@ -1,5 +1,8 @@
 extends layout
 
+block title
+    title More | KokoaTalk
+
 block content
     header.screen-header
         h1.screen-header__title More
@@ -53,4 +56,8 @@ block content
                     .more-suggestions__icon-image
                         i.far.fa-meh-blank
                     span.more-suggestions__icon-text Kokoa friends
-        
+    
+block nav-friends
+    i.far.fa-user.fa-2x
+block nav-chats
+    i.far.fa-comment.fa-2x

@@ -1,5 +1,7 @@
 extends layout
 
+block title
+    title Chats | KokoaTalk
 block content
     header.screen-header
         h1.screen-header__title Chats
@@ -19,10 +21,13 @@ block content
                 .user-component__column
                     img.user-component__avatar(src="https://pbs.twimg.com/profile_images/814468511825154048/fwb0OjaC_400x400.jpg")
                     .user-component__text
-                        h4.user-component__title KokoaTalk
-                        h6.user-component__subtitle Please check My Kokoa Account info
+                        h4.user-component__title Pikachu
+                        h6.user-component__subtitle Did you eat lunch?
                 .user-component__column
-                    span.user-component__time 23:06
+                    span.user-component__time 12:06
                     .badge 1
 
-
+block nav-friends
+    i.far.fa-user.fa-2x
+block nav-chats
+    i.fas.fa-comment.fa-2x

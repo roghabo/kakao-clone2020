@@ -1,5 +1,7 @@
 extends layout
-
+block title
+    title Friends | KokoaTalk
+    
 block content
     header.screen-header
         h1.screen-header__title Friends
@@ -30,7 +32,7 @@ block content
                 i.fas.fa-chevron-up.fa-xs
         .user-component
             .user-component__column
-                img.user-component__avatar.user-component__avatar--sm(src="https://pbs.twimg.com/profile_images/983730179359981568/09_V2ORe_400x400.jpg")
+                img.user-component__avatar.user-component__avatar--sm(src="https://vignette.wikia.nocookie.net/pokemon/images/9/9e/%ED%8F%AC%EC%BC%93%EB%AA%AC%EC%8A%A4%ED%84%B0_XY_%EC%95%A0%EB%8B%88_%ED%8F%AC%EC%8A%A4%ED%84%B0.png/revision/latest?cb=20130927081258&path-prefix=ko")
                 .user-component__text
                     h4.user-component__title.user-component__title--not-bold Channel
                    
@@ -38,6 +40,10 @@ block content
                 div
                     span 2
                     i.fas.fa-chevron-right.fa-xs
+block nav-friends
+    i.fas.fa-user.fa-2x
+block nav-chats
+    i.far.fa-comment.fa-2x
 
 block splash
     #splash-screen

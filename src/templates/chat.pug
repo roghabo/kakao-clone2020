@@ -5,7 +5,7 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         link(rel="stylesheet", href="../css/style.css")
-        title Welcome to Kokoa Clone
+        title Chat
     body#chat-screen
         include ../partials/status-bar
 
@@ -14,7 +14,7 @@ html(lang="en")
                 a(href="chats.html")
                     i.fas.fa-angle-left.fa-3x
             .alt-header__column
-                h1.alt-header__title Pika
+                h1.alt-header__title Pikachu
             .alt-header__column
                 span
                     i.fas.fa-search.fa-lg
@@ -28,12 +28,19 @@ html(lang="en")
                     span.message__author Pika
                     .message__info
                         span.message__bubble Hi
-                        span.message__time 12:24
+                        span.message__time 12:02
             .message-row.message-row--own
                 .message-row__content
                     .message__info
                         span.message__bubble Hi nice to meet you!
-                        span.message__time 12:33
+                        span.message__time 12:03
+            .message-row
+                img(src="https://pbs.twimg.com/profile_images/814468511825154048/fwb0OjaC_400x400.jpg")
+                .message-row__content
+                    span.message__author Pika
+                    .message__info
+                        span.message__bubble Did you eat lunch?
+                        span.message__time 12:06
         form.reply
             .reply__column
                 i.far.fa-plus-square.fa-lg

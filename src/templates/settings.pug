@@ -1,5 +1,8 @@
 extends layout
 
+block title
+    title Settings | KokoaTalk
+
 block content
     header.alt-header
         .alt-header__column
@@ -26,3 +29,8 @@ block content
                     i.fas.fa-info-circle
                     span Version
                 .settings__setting-column Latest Version
+
+block nav-friends
+    i.far.fa-user.fa-2x
+block nav-chats
+    i.far.fa-comment.fa-2x
